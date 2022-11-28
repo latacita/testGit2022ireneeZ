@@ -31,3 +31,7 @@
 (28)   git pull
 	git push
 	git push RespuestaPreguntaFusion
+(30)   git add bitacora.txt
+	git commit -m "Paso 30"
+(31)   git merge Historia 001 		Se produce un conflicto en el fichero bitacora.txt. Se resuelve manualmente editando el archivo
+	git add bitacora.txt		La fusión se ha hecho de forma recursiva.
