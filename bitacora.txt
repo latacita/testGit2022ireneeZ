@@ -18,3 +18,9 @@
 (14)   git commit -m "Paso 14"
 (15)   git checkout Historia001
 (16)   git stash apply
+(19)   git commit -m "Paso 19"
+(20)   git checkout Historia000
+       git merge Historia001        Se produce un conflicto dado que ambas historias han editado el mismo fichero en las mismas líneas.
+					Se resuelve el conflicto manualmente.
+
+	
