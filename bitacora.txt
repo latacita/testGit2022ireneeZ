@@ -12,6 +12,8 @@
 (7)    git add bitacora.txt
 (8)    git commit -m "Paso 08"
 (9)    git checkout Historia001
+(11)   git stash
+       git checkout Historia000
 (13)   git add bitacora.txt
 (14)   git commit -m "Paso 14"
 (15)   git checkout Historia001
