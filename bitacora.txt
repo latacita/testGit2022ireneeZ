@@ -10,3 +10,8 @@
 (23)   git commit -m "Paso 23"
 (24)   git checkout master
 (25)					La fusión se haría de forma recursiva y se generarían conflictos en el fichero
+(26)   git add bitacora.txt
+(27)   git tag RespuestaPreguntaFusion
+(28)   git pull
+	git push
+	git push RespuestaPreguntaFusion
