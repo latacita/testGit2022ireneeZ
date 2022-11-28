@@ -1,11 +1,27 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Zamanillo Zubizarreta, Irene):                                      %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(3)    git branch Historia000
+(4)    git branch Historia001
+(5)    git checkout Historia000
+(7)    git add bitacora.txt
+(8)    git commit -m "Paso 08"
+(9)    git checkout Historia001
+(11)   git stash
+       git checkout Historia000
+(13)   git add bitacora.txt
+(14)   git commit -m "Paso 14"
+(15)   git checkout Historia001
+(16)   git stash apply
+(19)   git commit -m "Paso 19"
+(20)   git checkout Historia000
+       git merge Historia001        Se produce un conflicto dado que ambas historias han editado el mismo fichero en las mismas líneas.
+					Se resuelve el conflicto manualmente.
 (22)   git add bitacora.txt
 (23)   git commit -m "Paso 23"
 (24)   git checkout master
