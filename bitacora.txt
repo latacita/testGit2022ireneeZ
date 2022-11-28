@@ -6,3 +6,7 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(22)   git add bitacora.txt
+(23)   git commit -m "Paso 23"
+(24)   git checkout master
+(25)					La fusión se haría de forma recursiva y se generarían conflictos en el fichero
